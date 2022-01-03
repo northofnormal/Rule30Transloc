@@ -12,8 +12,34 @@ struct ContentView: View {
     @State private var sizeOfPattern = 3
 
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack(spacing: 0) {
+                ForEach(patternRows, id: \.self) { row in
+                    HStack(spacing: 0) {
+                        Spacer()
+
+                        ForEach(row, id: \.self) { item in
+                            Color(item == 0 ? .white : .black)
+                                .border(Color.black)
+                        }
+
+                        Spacer()
+                    }
+                }
+
+                Spacer()
+
+                Button("Rule 30 GO!") {
+                    rule30ify(sizeOfPattern)
+                }
+                .frame(width: 200, height: 50)
+                .background(.purple)
+                .foregroundColor(.white)
+                .clipShape(RoundedRectangle(cornerRadius: 10))
+
+            }
+            .navigationTitle("Rule 30")
+        }
     }
 
     func rule30ify(_ maxSize: Int) {
