@@ -14,6 +14,17 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 0) {
+                HStack {
+                    Text("How large should our pattern be?")
+                    Picker(selection: $sizeOfPattern) {
+                        ForEach(3..<25) {
+                            Text("\($0)")
+                        }
+                    } label: {
+                        Text("picker")
+                    }
+                }
+
                 ForEach(patternRows, id: \.self) { row in
                     HStack(spacing: 0) {
                         Spacer()
@@ -30,7 +41,7 @@ struct ContentView: View {
                 Spacer()
 
                 Button("Rule 30 GO!") {
-                    rule30ify(sizeOfPattern)
+                    rule30ify(sizeOfPattern + 3)
                 }
                 .frame(width: 200, height: 50)
                 .background(.purple)
