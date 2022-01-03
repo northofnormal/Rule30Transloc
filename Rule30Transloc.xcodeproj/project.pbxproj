@@ -14,6 +14,7 @@
 		49F5958B27836FCA00171EB3 /* Rule30TranslocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5958A27836FCA00171EB3 /* Rule30TranslocTests.swift */; };
 		49F5959527836FCA00171EB3 /* Rule30TranslocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5959427836FCA00171EB3 /* Rule30TranslocUITests.swift */; };
 		49F5959727836FCA00171EB3 /* Rule30TranslocUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5959627836FCA00171EB3 /* Rule30TranslocUITestsLaunchTests.swift */; };
+		49F595A42783713E00171EB3 /* Implementer .swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F595A32783713E00171EB3 /* Implementer .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		49F5959027836FCA00171EB3 /* Rule30TranslocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rule30TranslocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F5959427836FCA00171EB3 /* Rule30TranslocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule30TranslocUITests.swift; sourceTree = "<group>"; };
 		49F5959627836FCA00171EB3 /* Rule30TranslocUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule30TranslocUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49F595A32783713E00171EB3 /* Implementer .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Implementer .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				49F5957927836FC900171EB3 /* Rule30TranslocApp.swift */,
 				49F5957B27836FC900171EB3 /* ContentView.swift */,
+				49F595A32783713E00171EB3 /* Implementer .swift */,
 				49F5957D27836FCA00171EB3 /* Assets.xcassets */,
 				49F5957F27836FCA00171EB3 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49F5957C27836FC900171EB3 /* ContentView.swift in Sources */,
+				49F595A42783713E00171EB3 /* Implementer .swift in Sources */,
 				49F5957A27836FC900171EB3 /* Rule30TranslocApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
