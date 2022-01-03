@@ -21,7 +21,7 @@ struct Implementer {
         return newRule30Array(from: startingArray)
     }
 
-    private func findMiddle(_ size: Int) -> [Int]? {
+    func findMiddle(_ size: Int) -> [Int]? {
         let half = size/2
 
         if size % 2 == 0 {
@@ -31,7 +31,7 @@ struct Implementer {
         }
     }
 
-    private func newRule30Array(from starter: [Int]) -> [[Int]] {
+    func newRule30Array(from starter: [Int]) -> [[Int]] {
         var totalResult = [[Int]]()
         totalResult.append(starter)
         var newTranslatedArray = translate(starter)
@@ -45,7 +45,7 @@ struct Implementer {
         return totalResult
     }
 
-    private func translate(_ array: [Int]) -> [Int] {
+    func translate(_ array: [Int]) -> [Int] {
         var result = [Int]()
         var previous = 0
         var following = 0
@@ -71,7 +71,7 @@ struct Implementer {
         return result
     }
 
-    private func determineValue(from array:[Int]) -> Int {
+    func determineValue(from array:[Int]) -> Int {
         if array == [1,1,1] || array == [1,1,0] || array == [1,0,1] || array == [0,0,0] {
             return 0
         }

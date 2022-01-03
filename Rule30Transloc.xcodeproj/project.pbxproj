@@ -15,6 +15,8 @@
 		49F5959527836FCA00171EB3 /* Rule30TranslocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5959427836FCA00171EB3 /* Rule30TranslocUITests.swift */; };
 		49F5959727836FCA00171EB3 /* Rule30TranslocUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5959627836FCA00171EB3 /* Rule30TranslocUITestsLaunchTests.swift */; };
 		49F595A42783713E00171EB3 /* Implementer .swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F595A32783713E00171EB3 /* Implementer .swift */; };
+		49F595A62783726D00171EB3 /* ImplementorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F595A52783726D00171EB3 /* ImplementorTests.swift */; };
+		49F595A72783736900171EB3 /* Implementer .swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F595A32783713E00171EB3 /* Implementer .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,7 @@
 		49F5959427836FCA00171EB3 /* Rule30TranslocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule30TranslocUITests.swift; sourceTree = "<group>"; };
 		49F5959627836FCA00171EB3 /* Rule30TranslocUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule30TranslocUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		49F595A32783713E00171EB3 /* Implementer .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Implementer .swift"; sourceTree = "<group>"; };
+		49F595A52783726D00171EB3 /* ImplementorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				49F5958A27836FCA00171EB3 /* Rule30TranslocTests.swift */,
+				49F595A52783726D00171EB3 /* ImplementorTests.swift */,
 			);
 			path = Rule30TranslocTests;
 			sourceTree = "<group>";
@@ -270,6 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F595A62783726D00171EB3 /* ImplementorTests.swift in Sources */,
+				49F595A72783736900171EB3 /* Implementer .swift in Sources */,
 				49F5958B27836FCA00171EB3 /* Rule30TranslocTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
